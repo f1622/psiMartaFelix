@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn_usados").mouseenter(function(){
+        $(".usados").toggle();
+    });
+    $("#btn_novos").mouseenter(function(){
+        $(".novos").toggle();
+    });
+});
+</script>
+</head>
+<body>
+
+<h1>STAND carFashion</h1>
+<span id="btn_usados">Carros usados</span>&nbsp;&nbsp;&nbsp;<span id="btn_novos">Carros novos</span><br>
+
+<img class="usados" src="carro3.jpg" width="300" height="200" alt="Computer Hope">
+<img class="usados" src="carro4.jpg" width="300" height="200" alt="Computer Hope"><br>
+<img class="novos" src="carro1.jpg" width="300" height="200" alt="Computer Hope">
+<img class="novos" src="carro2.jpg" width="300" height="200" alt="Computer Hope">
+
+
+</body>
+</html>
